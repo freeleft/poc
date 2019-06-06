@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "772361654849",
+    "firebase_url": "https://pocfree-31156.firebaseio.com",
+    "project_id": "pocfree-31156",
+    "storage_bucket": "pocfree-31156.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772361654849:android:0aa544b35b19dec1",
+        "android_client_info": {
+          "package_name": "com.freeleft.poc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772361654849-jk20nagho0023uu9r1hj8j9fokrlsao1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.freeleft.poc",
+            "certificate_hash": "8a1043939bb74258efc2a76563db6dccd2ab2751"
+          }
+        },
+        {
+          "client_id": "772361654849-m0i0gkm298t5r7evdreei19jnur13a29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB09OysrUhKkFzUkrcVWTas9vV66n_VnMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772361654849-m0i0gkm298t5r7evdreei19jnur13a29.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
