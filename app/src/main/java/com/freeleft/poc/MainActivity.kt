@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
     class MyArrayAdapter(
         private val ctx: Context,
         resource: Int,
-        private val classes: Array<Class<out Any>>
+        private val classes: Array<Class<out AppCompatActivity>>
     )
         : ArrayAdapter<Class<*>>(ctx, resource, classes) {
         private var descriptionIds: IntArray? = null
@@ -61,10 +61,10 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
 
     companion object {
         private val CLASSES = arrayOf(GoogleSignInActivity::class.java,
-            FacebookLoginActivity::class.java,
-            EmailPasswordActivity::class.java)
+            EmailPasswordActivity::class.java,
+            SupermercadoActivity::class.java)
         private val DESCRIPTION_IDS = intArrayOf(R.string.desc_google_sign_in,
-            R.string.desc_facebook_login,
-            R.string.desc_emailpassword)
+            R.string.desc_emailpassword,
+            R.string.desc_produto_georeferencia)
     }
 }
